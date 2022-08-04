@@ -8,13 +8,17 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "vite"
+    "dev": "vite",
+    "prepublish": "pnpm run build"
   },
   "keywords": [
     "timer"
   ],
   "author": "07akioni",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "typescript": "^4.7.4",
     "vite": "^3.0.4"
