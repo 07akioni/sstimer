@@ -1,0 +1,22 @@
+{
+  "name": "sstimer",
+  "version": "1.0.0",
+  "description": "A super simple timer that can start, stop & fire finish callback.",
+  "type": "module",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "vite"
+  },
+  "keywords": [
+    "timer"
+  ],
+  "author": "07akioni",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  }
+}
